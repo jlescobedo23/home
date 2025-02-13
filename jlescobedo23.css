@@ -178,7 +178,7 @@ p {
 
 .photodiv {
 	        background-color: #2f8d46;
-            background-image: url("../Images/Cameras2.jpg");
+            background-image: url("images/Cameras2.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
