@@ -2,23 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Personal blog">
+	<meta name="description" content="branding">
 	<meta name="keywords" content="Photography, Blog, Dallas Stars, Pokemon, TCG, Lorcana, Disney">
 	<meta name="author" content="Jonathan Escobedo">
-	<link rel="stylesheet" type="text/css" href="jlescobedo23.css">
+	<link rel="stylesheet" type="text/css" href="css/jlescobedo23Stylesheet.css">
+	<link rel="stylesheet" type="text/javascript" href="Java/jlescobedo23.js">
 	<link rel="icon" href="images/icon.png" type="image/png">
 <style>
-	
+		.main_img{
+		height: 300px;
+		width: 300px;
+		object-fit: cover;
+		border-radius: 50%;
+		display: block;
+	}
+body {
+       margin: auto;
+		align-content: center
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+			background-color: darkslategrey;
+			position: relative;
+            width: 300px;
+            height: 300px;
+			margin: auto
+        }
+        .main-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 3px solid lime;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .small-image {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            position: absolute;
+            background: url('small.jpg') no-repeat center/cover;
+            border: 3px solid white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			 filter: grayscale(100%);
+    &:hover {
+      filter: grayscale(0);
+			}
+	}
+        .top {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .bottom {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .left {
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .right {
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
 a:hover {
-  color: gold;
+  color: turquoise;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: yellow;
+  color: turquoise;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 	a:visited {
 		
@@ -45,7 +111,7 @@ h2{
 <body>
 <!-- Navigation -->
 <div class="navbar">
-  <a href="index.html">Home</a>
+  <a href="jlescobedo23.html">Home</a>
   <a href="About.html">About</a>
   <a href="blog.html">Blog</a>
   <a href="Photography.html">Photography</a>
@@ -56,17 +122,20 @@ h2{
 <div class="main">
   <main>
 	  <br>
-	  <img src="images/jlescobedo23.png" alt="Social Media handle" style="width:400px" class="center"><br>
-	  
-<h1 class="aligncenter">Not much ado about anything</h1>
-<p class="aligncenter">A collection of blogs and photographs of an aspiring amateur, aimed at informing and entertaining.</p>
-	<br>
-
-<h2>Welcome!</h2>
-
-<p>Within the halls of this website, you will find various photographs I've taken over the years, creations from my brain to my hands, and please make sure to stop by the blog page and carefully navigate across some of my hobbies I wish to share!</p>
-<img src="images/bnw.jpg" alt="author" style="height:300px;width:225px" class="center"><br>
-	</main>
+	  <div class="handle" align="center">
+	  <img src="images/jlescobedo23.png" alt="Social Media handle" style="width:400px"><br>
+	  </div>
+<div class="container">
+	  <img src="Images/bnw.jpg" alt="Author" class="main-image">
+        <a href="https://www.facebook.com/profile.php?id=1015923994" target="_blank"><img src="Images/FBlogo.png" alt="Image 1" class="small-image top"></a>
+        <a href="https://x.com/jlescobedo23" target="_blank"><img src="Images/X logo.png" alt="Image 2" class="small-image left"></a>
+        <a href="https://www.instagram.com/jlescobedo23/"><img src="Images/IG logo.png" alt="Image 3" class="small-image right"></a>
+        <a href="https://www.linkedin.com/in/jonathan-escobedo-713b65225"> <img src="Images/LinkedIn logo.png" alt="Image 4" class="small-image bottom"></a>
+	  </div>
+<h1 align="center">Welcome!</h1>
+<h2 class="aligncenter">Not much ado about anything:<br>
+<small>A collection of blogs and photographs of an aspiring amateur, aimed at informing and entertaining</small></h2>
+  </main>
 </div>
 
 <footer>
@@ -74,10 +143,10 @@ h2{
             <div class="footer-section">
             <h4>Navigation</h4>
             <ul>
-				<li><a href="jlescobedo23.html">Home</a></li><br>
+				<li><a href="index.html">Home</a></li><br>
   				<li><a href="About.html">About</a></li><br>
-                <li><a href="Blog/blog.html">Blog</a></li><br>
-				<li><a href="Photography/Photography.html">Photography</a></li><br>
+                <li><a href="blog.html">Blog</a></li><br>
+				<li><a href="Photography.html">Photography</a></li><br>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
