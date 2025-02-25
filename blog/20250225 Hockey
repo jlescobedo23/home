@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="About">
+	<meta name="keywords" content="Photography, Blog, Dallas Stars, Pokemon, TCG, Lorcana, Disney">
+	<meta name="author" content="Jonathan Escobedo">
+	<link rel="stylesheet" type="text/css" href="../jlescobedo23.css">
+	<link rel="stylesheet" type="text/javascript" href="Java/jlescobedo23.js">
+	<link rel="icon" href="images/icon.png" type="image/png">
+<style>
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	a:visited {
+		
+	}
+
+h2{
+	color:navajowhite
+}
+	h3{
+	color:navajowhite
+}
+
+}
+	ul {
+	color:ivory;
+}
+	li {
+		display: inline;
+	}
+</style>
+	
+<title>About me and this site</title>
+</head>
+<body>
+<!-- Side navigation -->
+<div class="navbar">
+  <a href="jlescobedo23.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="blog.html">Blog</a>
+  <a href="Photography.html">Photography</a>
+  <a href="Contact.html">Contact Me</a>
+</div>
+
+<!-- Page content -->
+<div class="main">
+  <main>
+  <br>
+	  <div class="handle" align="center">
+	  <img src="../images/jlescobedo23.png" alt="Social Media handle" style="width:300px"><br>
+	  </div>
+	  <a href="../blog.html"><h2 style="color: lime">Blog home</h2></a>	  
+<h1 class="aligncenter">So You Suck Because You Don’t Know Hockey…</h1>
+<p><small>Published 25 February 2025</small></p>
+<p>The first step is admitting you have a problem. You don’t understand the fantastic sport of (ice) hockey, and that’s okay! I grew up in a non-hockey market in Texas in the 80s and 90s. We had the MLB’s Texas Rangers and NBA’s Dallas Mavericks on our radars, but of course there was the Dallas Cowboys. So when the National Hockey League’s Minnesota North Stars closed their doors, they relocated to north Texas where they dropped the “North” from their team name to become the Dallas Stars. So I sucked, too, but then I fell in love with the game with help from my sister.</p>
+<p>In a nutshell, hockey is generally played 5 v 5 with a goalie in the net for each of the two teams. The objective, like most sports, is to have the highest number of points (goals) at the end of the game by getting the puck in the opposition’s net.</p>
+<p>Obviously there are so many nuances to the game much like any other. There are certain ways you are allowed to play the puck, restrictions on where you can be, infractions and penalties that can give one side an advantage.</p>
+	  <p>Lets get into the setup.</p>
+<p>There are several lines and circles painted on the surface just below the roughly 1” thick ice. The lines break up the zones. The red line right in the middle is the center red line. It’s surrounded by two parallel blue lines which mark a team’s zone or end. This area between the two blue lines is called the “DMZ”—I mean, “neutral zone.” A team’s zone has another red line that runs through the goalie’s crease. This red line has a couple of purposes, but the major one is to determine if a puck crosses the line entirely within the net for a scored goal.  The circles around the ice are to position players for a face-off when play is resuming.</p>
+<p>On the ice for even-strength play, a team will have three players on a forward line (a Center, a Left-Wing, and a Right Wing). Simultaneously, they will have a defensive pairing (left/right Defense). These are known as the ‘skaters.’</p>
+<p>Back-stopping them is the goal-tender/goalie. He’s the one who’s got the wider stick and a lot more protection. His happy place is in the blue paint: the crease of the 6’ x 4’ net. As long as the goalie is on the ice, a team can only have a maximum of five skaters on the ice. More to follow.</p>
+<p>From the opening face-off (equivalent of the NBA tip-off), the teams have three 20-minute periods to outscore the opponent, with a 20-minute break in between each one to rest and collect their thoughts.</p>
+<p>Officiating the game are two referees accompanied by two linesmen. Throughout the game there a few instances in which the play can be “blown dead” by the officials’ whistles: general safety considerations, an infraction from play with the puck, or a penalty against a player or team.</p>
+<p>An infraction is an incident where the puck may be hit with a stick being too high, a player enters the “attack zone” before the puck, the puck is out of play by landing in a team’s bench or the seating area, etc. This will effectively just pause play and reset.</p>
+<p>Regarding penalties, this is where the penalty box comes in. Affectionately called the “sin-bin,” these small areas—located across the ice from the team’s benches—are where penalized players are restricted from playing with their teammates. If only one team has a penalized player, their team cannot replace them on the ice until they are released from their lil prison. Most penalties are two minutes long (known as a “minor” penalty), but some can be designated as 5-minute majors. This time of play where one team has a man-advantage is called a Power Play, and the disadvantaged team is on the Penalty Kill. If the Power Play scores, the penalized player’s remaining penalty time is nullified on a minor penalty. If it’s a major, the Power Play can score at will. If the Penalty Killers score, the penalty will continue. While penalties can pile on to a player or a team, a team cannot have fewer than three skaters on the ice at a time.</p>
+<p>There are also 10-minute misconduct penalties and match penalties. This does not affect the number of players on the ice, however, the penalized player is removed from the game for either 10 minutes of play, or for the remainder of the game.</p>
+<p>Congratulations, you now understand enough about hockey to glance at a game being aired randomly on a tv, and answer the question, “What am I even looking at?”</p>
+<p>Speaking earnestly, for first time viewers, it may be difficult to follow and maintain interest. At first, the easiest thing to do is just follow where the players are going or looking if you can’t track the puck. While the scoring isn’t as frequent as the other major professional sports, when it happens, it’s exhilarating. You’ll also have some big hits, and maybe even a fight or three.</p>
+<br>
+<br>
+<br>
+
+<p>
+Epilogue: 
+Hockey has roots in various sports. Legend has it, Russians who were living in Canada strapped on their ice skates and grabbed their field hockey gear to give birth to a new sport. I recommend checking out the NHL’s website (https://www.nhl.com/history/a-brief-history-of-the-league) to get more information on the history of the league.
+</p>
+</main>
+</div>
+
+<footer>
+    <div class="footer-container">
+            <div class="footer-section">
+            <h4>Navigation</h4>
+            <ul>
+				<li><a href="index.html">Home</a></li><br>
+  				<li><a href="About.html">About</a></li><br>
+                <li><a href="blog.html">Blog</a></li><br>
+				<li><a href="Photography.html">Photography</a></li><br>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=1015923994" target="_blank">Facebook</a></li><br>
+                <li><a href="https://x.com/jlescobedo23" target="_blank">Twitter/X</a></li><br>
+                <li><a href="https://www.instagram.com/jlescobedo23/" target="_blank">Instagram</a></li><br>
+                <li><a href="https://www.linkedin.com/in/jonathan-escobedo-713b65225" target="_blank">LinkedIn</a></li><br>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    </div>
+</footer>
+</body>
+
+</html>
