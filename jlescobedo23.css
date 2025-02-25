@@ -7,27 +7,11 @@ body {
 	background-attachment: fixed;
 }
 
-.zoom {
-  padding: 0px;
-  transition: transform .2s; /* Animation */
-  margin: 0 auto;
+.handle {
+	align-content: center;
+	style:"width:400px"
 }
 
-.zoom:hover {
-  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-.button {
-  background-color: darkgoldenrod;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 h1 {
 	color: white;
 	text-align: center;
@@ -77,8 +61,10 @@ p {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  background-image: url("images/bg.jpg");
-  font-family: Arial;
+  background-image: url("Images/bg.jpg");
+  font-family: Stencil;
+	text-align: center;
+	font-size: 25px
 }
 
 .navbar a {
@@ -88,86 +74,7 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lime;
-  color: black;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 10%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-image: url("Images/bg.jpg");
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  color: lime;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: gold;
+  margin-right: 15px;
 }
 
 /* Style page content */
@@ -178,7 +85,7 @@ p {
 
 .photodiv {
 	        background-color: #2f8d46;
-            background-image: url("images/Cameras2.jpg");
+            background-image: url("../Images/Cameras2.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -196,34 +103,6 @@ p {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-input:required {
-	border: 2px solid red;
-}
-
-#drag-container {
-    margin: 20px;
-}
-
-#draggable {
-    width: 150px;
-    height: 50px;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 5px;
-    cursor: move;
-}
-
-#drop-zone {
-    width: 200px;
-    height: 100px;
-    border: 2px dashed #ccc;
-    margin: 20px auto;
-    line-height: 100px;
-    color: #aaa;
 }
 
 footer {
@@ -263,3 +142,62 @@ footer {
     .footer-bottom {
         margin-top: 20px;
     }
+
+/* Circle of images */
+.image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+.center-image {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.surrounding-image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#img1 {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#img2 {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+#img3 {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#img4 {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+#img5 {
+    top: 20%;
+    left: 20%;
+}
+
+#img6 {
+    top: 20%;
+    right: 20%;
+}
+
