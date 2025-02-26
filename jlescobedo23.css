@@ -77,7 +77,7 @@ p {
   margin-right: 15px;
 }
 a:link {
-  color: lightblue;
+  color: lime;
   background-color: transparent;
   text-decoration: none;
 }
@@ -94,7 +94,7 @@ a:active {
   text-decoration: underline;
 }
 	a:visited {
-		
+		color: lime;
 	}
 /* Style page content */
 .main {
@@ -104,7 +104,8 @@ a:active {
 
 .photodiv {
 	        background-color: #2f8d46;
-            background-image: url("../Images/Cameras2.jpg");
+            background-image: url("images/Cameras2.jpg");
+			background-size: 600px;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
