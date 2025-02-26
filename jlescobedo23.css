@@ -61,7 +61,7 @@ p {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  background-image: url("Images/bg.jpg");
+  background-image: url("images/bg.jpg");
   font-family: Stencil;
 	text-align: center;
 	font-size: 25px
@@ -76,7 +76,26 @@ p {
   text-decoration: none;
   margin-right: 15px;
 }
+a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	a:visited {
+		
+	}
 /* Style page content */
 .main {
   margin-left: 0%; /* Same as the width of the sidebar */
